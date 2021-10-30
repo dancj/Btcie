@@ -10,7 +10,7 @@ import numpy as np
 import datetime as dt
 
 
-class indicators:
+class Indicators:
 
     @staticmethod
     def calc_sma(df_price, lookback=14):
