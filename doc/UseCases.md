@@ -7,3 +7,5 @@ U2. User shall be able to fetch current BTC and Altcoin price data so that displ
 U3. User shall be able to enter crypto to fiat and crypto to crypto transactions so that Btcie can display their current portfolio and cost basis
 
 U4. User shall be able to export portfolio report for download so that they can save a record of their crypto holdings
+
+U5. User shall be able to view historical transactions and current portfolio balances

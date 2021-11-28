@@ -2,7 +2,6 @@
 Dan Thayer - playing with python and indicators in pursuit of profit
 Oct 2021
 
-
 """
 
 import pandas as pd
@@ -43,8 +42,8 @@ class Indicators:
         create moving average convergence/divergence oscillator which subtracts longer moving avg from shorter one
         :param self:
         :param df_price:
-        :param lookback1:
-        :param lookback2:
+        :param lookback1: days for first moving avg (default 12)
+        :param lookback2: days for second (longer) moving avg (default 26)
         :return:
         """
         ema_long = df_price.ewm(span=lookback2, adjust=False).mean()
